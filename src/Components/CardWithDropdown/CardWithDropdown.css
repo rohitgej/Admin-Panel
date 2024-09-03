@@ -1,0 +1,148 @@
+.card-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .button-sec{
+   
+    display: flex;
+    align-items: center;
+    gap: 20px ;
+    
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 16px;
+  }
+  
+  .card-info {
+    display: flex;
+    align-items: center;
+    width: 20%;
+  }
+  
+  .dress-name {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+  
+  .categories {
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  .dropdown-icon {
+    cursor: pointer;
+    font-size: 24px;
+    color: #007bff;
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-content {
+    padding: 16px;
+    background-color: #f9f9f9;
+  }
+  .laundry-typeSec{
+    width: 30%;
+  }
+  .dropdown-icon {
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .dropdown-content {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+  }
+  
+  .input-fields {
+    margin-top: 12px;
+  }
+  
+  .input-group {
+    margin-bottom: 8px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .saved-info {
+    margin-top: 12px;
+  }
+  
+  .saved-info p {
+    margin: 4px 0;
+  }
+  .icon-sec {
+    width: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .listSec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16px;
+  }
+
+  .laundry-typeSec input{
+  
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100px;
+    font-size: 1em;
+  }
+
+  .laundry-typeSec h4{
+    margin: 0;
+    font-size: 1em;
+  }

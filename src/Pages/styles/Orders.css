@@ -1,0 +1,51 @@
+.inventory-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%; /* Ensure it takes full width */
+  display: block; /* Ensures it behaves as a block-level element */
+  border: 1px solid #ddd; /* Optional: Add a border for better visibility */
+}
+.OitemSec{
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+.OrderStatus{
+  font-size: 10px;
+  background-color: red;
+}
+
+.otable-container {
+  flex: 1; /* This will allow the table container to take up the remaining space */
+  white-space: nowrap; /* Ensure table content doesn't wrap */
+  overflow: auto;
+}
+
+.otable {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto; /* Allow the table to determine column widths */
+}
+
+.otable th,
+td {
+ font-size: 12px;
+ height: fit-content;
+  border: 1px solid #a1a1a1;
+  text-align: left;
+
+}
+
+th {
+  background-color: #cccaca;
+  border: 2px solid #828282;
+}
+
+img {
+  border-radius: 5px;
+  max-width: 100%;
+}

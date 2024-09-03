@@ -1,0 +1,57 @@
+.lists{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    border: #ddd, 2px, solid;
+
+}
+.list{
+ display:flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.listItem{
+    width:150px;
+}
+.lists button {
+    background-color: #585ce4;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd; /* Border between rows */
+}
+
+.lists button {
+    background-color: #585ce4;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+.list:hover {
+    background-color: #e0e0e0; /* Hover effect */
+}
+
+.list div {
+    flex: 1; /* Ensure each cell takes equal space */
+    padding: 10px;
+}

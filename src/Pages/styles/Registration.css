@@ -1,0 +1,103 @@
+
+  
+  /* Container for the form */
+  .register-container {
+    display: flex;
+   width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Form Box */
+  .register-box {
+    width: 30%;
+   
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Form Title */
+  .register-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .input-group select{
+    width: 105%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Toggle Password Visibility */
+  .toggle-password {
+    cursor: pointer;
+    font-size: 12px;
+    color: #6d48e5;
+    margin-top: 5px;
+    display: block;
+  }
+  .input-group{
+    width: 100%;
+  }
+
+  
+  /* Register Button */
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6d48e5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #5a3ec7;
+  }
+  
+  /* Login Link */
+  .login-link {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .login-link a {
+    color: #6d48e5;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  .buttonSec{
+ margin-left: 20px;
+  }

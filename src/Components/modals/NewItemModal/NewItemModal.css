@@ -1,0 +1,124 @@
+.nmodal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .laundrySave {
+    display: flex;
+  }
+  .nitemsSec {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nmodal-content {
+    background: white;
+    width: 40%;
+    max-height: 80vh; /* Adjust to control the modal height */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Make content scrollable if it exceeds modal height */
+  }
+  .nproduct-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .ntitleSec {
+    display: flex;
+  }
+  .ndelete-icon {
+    cursor: pointer;
+    margin-left: auto;
+  }
+  .nSecDiv1 {
+    width: 30%;
+  }
+  .nform-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nmodal-content h2 {
+    margin-top: 0;
+  }
+  
+  .nSec1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+  }
+  .nmodal-content label {
+    display: block;
+  }
+  .nSelectSec {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #ccc;
+  }
+  
+  .nWeightSec {
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #ccc;
+  }
+  .nWeightSecInput {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .nmodal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .nitemsSec p{
+  width: 30%;
+  }
+  
+  .nmodal-actions {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  }
+  
+  .nmodal-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nmodal-actions button:first-of-type {
+    background-color: #585ce4;
+    color: #ffffff;
+  }
+  .nform-group input {
+    margin: 0;
+  }
+  .laundrySave {
+    padding-top: 20px;
+  }
+  .nmodal-actions button {
+    background-color: #fa0000;
+    color: white;
+  }
+  
+  .nmodal-actions button:last-of-type {
+    background-color: #8b8b9f95;
+    color: #000000;
+  }
+  

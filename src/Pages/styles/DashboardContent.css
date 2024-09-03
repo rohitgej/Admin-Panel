@@ -1,0 +1,94 @@
+.dashboard-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .weather-card {
+    display: flex;
+    align-items: center;
+    background-color: #f5f6fa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .weather-info {
+    margin-left: 20px;
+  }
+  
+  .weather-info h3 {
+    margin: 0;
+  }
+  
+  .stats-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .stats-card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .stats-card.blue {
+    background-color: #4b7bec;
+  }
+  
+  .stats-card.purple {
+    background-color: #8854d0;
+  }
+  
+  .stats-card.pink {
+    background-color: #fc5c65;
+  }
+  
+  .stats-card.red {
+    background-color: #eb3b5a;
+  }
+  
+  .order-details,
+  .sales-report {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-details h3,
+  .sales-report h3 {
+    margin-top: 0;
+  }
+  
+  .order-stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .order-stat {
+    text-align: center;
+  }
+  
+  .chart {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    margin-top: 20px;
+  }
+  
+  .chart .bar {
+    flex: 1;
+    margin: 0 5px;
+    background-color: #ddd;
+    height: 100px;
+  }
+  
+  .chart .bar.offline {
+    background-color: #4b7bec;
+  }
+  
+  .chart .bar.online {
+    background-color: #fc5c65;
+  }
+  
